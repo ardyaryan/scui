@@ -87,7 +87,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </li>
                             <li @if($page == 'application') {{ 'active'}} @endif><a href="/application" class="effect-3">Application</a></li>
                             <li @if($page == 'scholarship') {{ 'active'}} @endif><a href="/scholarship" class="effect-3">Scholarship</a></li>
-                            <li @if($page == 'contact') {{ 'active'}} @endif><a href="/contact" class="effect-3">Contact</a></li>
+                            <li @if($page == 'contact') {{ 'active'}} @endif><a href="/contact" class="effect-3">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>
