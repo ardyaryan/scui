@@ -6,14 +6,14 @@ $( document ).ready(function() {
         var password = $('#password').val();
 
         $.ajax({
-            url: 'login.php',
+            url: 'login',
             type: 'POST',
             data: {
                 password: password,
                 user_name: userName
             },
             success: function(results) {
-                if (results === 'true') {
+                if (results.success === true) {
                     location.reload();
                 } else {
                     $('#login_message').text('Username or Password invalid!');

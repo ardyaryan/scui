@@ -18,14 +18,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         }
     </script>
     <!--//tags -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <!-- //for bootstrap working -->
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}" type="text/css" media="all">
+    <link rel="stylesheet" href="{{ asset('css/portal.css') }}" type="text/css" media="all">
+    <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700" rel="stylesheet">
-
 
 </head>
 
@@ -52,7 +51,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <nav class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="/"><img src="images/sciu/SCUI_Logo_Black_Large.png" style="width: 200px;"/></a>
+                    <a href="/"><img src="{{ asset('images/sciu/SCUI_Logo_Black_Large.png') }}" style="width: 200px;"/></a>
                 </div>
                 <!--/.navbar-header-->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

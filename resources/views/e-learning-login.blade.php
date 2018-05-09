@@ -30,3 +30,5 @@
     </div>
 </div>
 @include('footer')
+
+<script type="text/javascript" src="{{ asset('js/sciu/login.js') }}"></script>

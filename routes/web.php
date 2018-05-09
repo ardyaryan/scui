@@ -48,4 +48,10 @@ Route::get('/contact', function () {
     return View('contact', ['page' => 'contact']);
 });
 
+Route::get('/e-learning/participants', function () {
+    return View('e-learning', ['page' => 'e-learning', 'view' => 'portal.participants']);
+});
+
 Route::get('/e-learning', 'MainController@showELearning');
+Route::post('login',     'MainController@login');
+Route::get('logout',     'MainController@logout');
