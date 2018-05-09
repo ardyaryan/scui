@@ -54,10 +54,10 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => '127.0.0.1',
+            'host' => 'sciuniversity.com',
             'port' => '3306',
-            'database' => 'sciu',
-            'username' => 'ardyaryan',
+            'database' => 'sciu_laravel',
+            'username' => 'ardy',
             'password' => 'evolution',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
