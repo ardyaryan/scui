@@ -5,11 +5,11 @@
             <ul id="menu-content" class="menu-content collapse out">
                 <li class="active">
                     <a href="/e-learning" class="nav-links">
-                        <i class="fa fa-dashboard fa-lg"></i> Home
+                        <i class="fa fa-home fa-lg"></i> Home
                     </a>
                 </li>
                 <li data-toggle="collapse" data-target="#products" class="collapsed">
-                    <a href="#"><i class="fa fa-gift fa-lg"></i> Site Pages <span class="arrow"></span></a>
+                    <a href="#"><i class="fa fa-file fa-lg"></i> Site Pages <span class="arrow"></span></a>
                 </li>
                 <ul class="sub-menu collapse" id="products">
                     <li><a href="/e-learning/participants" class="nav-sub-links">Participants</a></li>
@@ -19,7 +19,7 @@
                     <li><a href="#">Calendar</a></li>
                 </ul>
                 <li data-toggle="collapse" data-target="#service" class="collapsed">
-                    <a href="#"><i class="fa fa-globe fa-lg"></i> Reports <span class="arrow"></span></a>
+                    <a href="#"><i class="fa fa-book fa-lg"></i> Reports <span class="arrow"></span></a>
                 </li>
                 <ul class="sub-menu collapse" id="service">
                     <li>Logs</li>
@@ -31,7 +31,7 @@
 
 
                 <li data-toggle="collapse" data-target="#new" class="collapsed">
-                    <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
+                    <a href="#"><i class="fa fa-graduation-cap fa-lg"></i> Courses <span class="arrow"></span></a>
                 </li>
                 <ul class="sub-menu collapse" id="new">
                     <li>New New 1</li>
@@ -40,16 +40,11 @@
                 </ul>
                 <li>
                     <a href="#" class="nav-links">
-                        <i class="fa fa-user fa-lg"></i> Profile
+                        <i class="fa fa-user fa-lg"></i> My Profile
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="nav-links">
-                        <i class="fa fa-users fa-lg"></i> Users
-                    </a>
-                </li>
-                <li>
-                    <a href="logout" class="nav-links">
+                    <a href="/logout" class="nav-links">
                         <i class="fa fa-sign-out fa-lg"></i> Logout
                     </a>
                 </li>
